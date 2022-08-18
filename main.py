@@ -11,7 +11,7 @@ from flask import url_for
 
 @app.route('/')
 def index():
-    return 'index'
+    return 'Hi i am Chethan'
 
 @app.route('/login')
 def login():
